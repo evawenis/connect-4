@@ -93,7 +93,7 @@ def main():
         if judge(board, j, i):
             print_board(board)
             print(f'{p} won!!!')
-            break
+            return 0
         turn += 1
 
     print_board(board)
