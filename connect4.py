@@ -101,7 +101,7 @@ def main():
                 print("Note: Reverted")
                 continue
 
-            elif extended and hori <= 10:
+            elif extended and col != '' and hori <= 10:
                 try:
                     col = keys.index(str(col))
                     if col > hori:
